@@ -1,0 +1,144 @@
+div.container{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+div.trans_nav {
+    height: 75px;
+    width: 100%;
+    background-color: transparent;
+    z-index: 2;
+    position: fixed;
+}
+
+div.gif_back{
+    text-align: center;
+    top: 0;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+img.gif_back{
+    top: 0;
+    width: 100%; 
+    height: 100vh;
+    object-fit: cover;
+}
+
+.index_title {
+    color: white;
+    font-family: Ostrich Sans Medium;
+    margin-top: -55vh;
+    font-size: 500%;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar_txt{
+    font-family: Franchise Bold;
+    color: white;
+    margin-top: 2px;
+
+}
+
+a.event_button{
+    text-decoration: none;
+}
+
+a.event_button:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a.event_button:hover{
+    text-decoration: none;
+    color: black;
+}
+
+div.event_{
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 35px;
+    width: 100px;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    color: white;
+    font-family: Franchise Bold;
+    font-size: 200%;
+    text-align: center;
+    float: right;
+}
+
+div.event_:hover{
+    color: black;
+    background-color: white;
+    cursor: default;
+}
+
+._scroll{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: -50px;
+    right:0;
+}
+
+html, body {
+    margin: 0;
+    background-color: black;
+}
+
+h2 {
+    font-family: Franchise Bold;
+    font-size:300%;
+    color: white;
+    text-align: center;
+}
+
+.text_invictus{
+    width: 100%;
+    height: 40vh;
+    background-color: darkviolet;
+}
+
+.image_invictus{
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footrow{
+    width: 100%;
+    height: 20vh;
+    background-color: #232323;
+}
+
+p {
+    font-family: Open Sans Light;
+    color: white;
+    text-align: center;
+}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Ostrich Sans Medium";src:url("../font/ostrich-regular.eot?") format("eot"),url("../font/ostrich-regular.woff") format("woff"),url("../font/ostrich-regular.ttf") format("truetype"),url("../font/ostrich-regular.svg#OstrichSans-Medium") format("svg");font-weight:normal;font-style:normal;}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Cyclo";src:url("../font/Cyclo.eot?") format("eot"),url("../font/Cyclo.woff") format("woff"),url("../font/Cyclo.ttf") format("truetype"),url("../font/Cyclo.svg#Cyclo") format("svg");font-weight:normal;font-style:normal;}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Franchise Bold";src:url("../font/Franchise-Bold-hinted.eot?") format("eot"),url("../font/Franchise-Bold-hinted.woff") format("woff"),url("../font/Franchise-Bold-hinted.ttf") format("truetype"),url("../font/Franchise-Bold-hinted.svg#Franchise-Bold") format("svg");font-weight:normal;font-style:normal;}
+
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Open Sans Light";src:url("../font/OpenSans-Light.eot?") format("eot"),url("../font/OpenSans-Light.woff") format("woff"),url("../font/OpenSans-Light.ttf") format("truetype"),url("../font/OpenSans-Light.svg#OpenSans-Light") format("svg");font-weight:normal;font-style:normal;}
+
