@@ -14,3 +14,35 @@ $("#back_arrow").hover(function(){
     $(this).css("background-color","white");
     $('#_back_arrow').attr("src","asset/back.png");
 });
+
+var window_pos = 1;
+
+$('#next_arrow').click(function(){
+    var mov = window_pos;
+    mov=mov+1;
+    var _win_id='window' + mov;
+    var _win_id2='window' + window_pos;
+    var win_id=$('#'+_win_id);
+    var win_id2=$('#'+_win_id2);
+    console.log(win_id)
+    if(!$(win_id).html()==""){
+        $(win_id).show();
+        $(win_id2).hide();
+        window_pos=mov;
+    }
+})
+
+$('#back_arrow').click(function(){
+    var mov = window_pos;
+    mov=mov-1;
+    var _win_id='window' + mov;
+    var _win_id2='window' + window_pos;
+    var win_id=$('#'+_win_id);
+    var win_id2=$('#'+_win_id2);
+    console.log(win_id)
+    if(mov > 0){
+      $(win_id).show();
+      $(win_id2).hide();
+      window_pos=mov;
+     }
+})

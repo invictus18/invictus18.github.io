@@ -12,7 +12,7 @@ $('#scr').click(function(){
         onAfter: function(){
             requestAnimationFrame(function(){
                 $('.container').css("visibility","visible");
-                $('.container').addClass('animated bounceIn');
+                $('.container').addClass('animated slideInLeft');
             })
         }
     })
