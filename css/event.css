@@ -21,7 +21,7 @@
 
 div.cards{
     background-color: black;
-    height: 10vh;
+    height: 70;
     width: 80vw;
     object-fit: cover;
     overflow: hidden;
