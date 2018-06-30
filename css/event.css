@@ -20,13 +20,12 @@
 
 div.cards{
     background-color: black;
-    height: 70;
+    height: 65;
     width: 80vw;
     object-fit: cover;
     overflow: hidden;
-    margin-top: 2vh;
-    margin-bottom: 1vh;
-    margin-left:10vw;
-    margin-right: 10vw;
-    border-radius: 0px;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    padding-left:10vw;
+    padding-right: 10vw;
 }

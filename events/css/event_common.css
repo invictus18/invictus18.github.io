@@ -1,8 +1,15 @@
-img.up{
-    background-color: black;
-    height: 70;
-    width: auto;
-    object-fit: contain;
-    overflow: hidden;
-    border-radius: 0px;
+.up {
+    height: 75px;
+    background color: transparent;
+    position: fixed;
+    font-family: Franchise Bold;
+    width: 100%;
+}
+
+.event_holder {
+    font-family: Open Sans Light;
+    background: white;
+    width: 100%;
+    height: 60vh;
+    opacity: 0.5;
 }
