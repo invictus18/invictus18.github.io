@@ -1,4 +1,3 @@
-console.log('bounce')
 $("#scr").hover(function(){
     $(this).css("background-color","black");
     $('#scr_img').attr("src","asset/scroll_over.png");
@@ -8,11 +7,16 @@ $("#scr").hover(function(){
 });
 
 $('#scr').click(function(){
-    $(window).scrollTo(".container", {
+    $('.container').show();
+    $(window).scrollTo(".container",1500, {
         onAfter: function(){
             requestAnimationFrame(function(){
-                $('.anim').addClass('.bounceIn');
+                $('.container').css("visibility","visible");
+                $('.container').addClass('animated bounceIn');
             })
         }
-    }
-)});
+    })
+});
+   
+
+

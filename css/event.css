@@ -1,0 +1,36 @@
+.container_event {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    position: fixed;
+}
+
+.container_table{
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+}
+
+.container_row{
+    width: auto;
+    height: auto;
+}
+
+.container_column{
+    float: left;
+    width: 33vw;
+    height: 40vh;
+}
+
+div.cards{
+    height: 30vh;
+    width: 30vh;
+    object-fit: cover;
+    margin: 33 auto auto auto;
+}
+
+img.cards{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

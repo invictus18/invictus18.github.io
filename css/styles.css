@@ -2,6 +2,8 @@ div.container{
     width: 100%;
     height: 100vh;
     background-color: black;
+    display: none;
+    visibility: hidden;
 }
 
 div.trans_nav {
@@ -35,6 +37,8 @@ img.gif_back{
     position: absolute;
     left:0;
     right: 0;
+    height: auto;
+    width: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -96,12 +100,17 @@ html, body {
     margin: 0;
     background-color: black;
 }
+body.b1 {
+    margin: 0;
+    background-color: white;
+}
 
 h2 {
     font-family: Franchise Bold;
     font-size:300%;
     color: white;
     text-align: center;
+    margin: 0 0 0 0;
 }
 
 .text_invictus{
@@ -155,6 +164,20 @@ img.social_link{
     float: right;
     margin-top: -4vh;
     position: absolute;
+}
+
+.sel_lang {
+    background-color: lightseagreen;
+    font-family: Franchise Bold;
+    text-overflow: clip;
+    height: 15vh;
+    width: 100%;
+}
+
+.sel_lang_child {
+    height: 100%;
+    vertical-align: middle;
+    padding-top: 3.75vh;
 }
 
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Ostrich Sans Medium";src:url("../font/ostrich-regular.eot?") format("eot"),url("../font/ostrich-regular.woff") format("woff"),url("../font/ostrich-regular.ttf") format("truetype"),url("../font/ostrich-regular.svg#OstrichSans-Medium") format("svg");font-weight:normal;font-style:normal;}
