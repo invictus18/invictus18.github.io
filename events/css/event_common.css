@@ -1,15 +1,42 @@
 .up {
     height: 75px;
     background color: transparent;
-    position: fixed;
     font-family: Franchise Bold;
     width: 100%;
 }
 
 .event_holder {
     font-family: Open Sans Light;
-    background: white;
+    background: black;
     width: 100%;
     height: 60vh;
-    opacity: 0.5;
+    opacity: 0.75;
+}
+
+div.event {
+    font-family: Open Sans Light;
+    width:100%;
+    height: 100%;
+    display:block;
+    vertical-align: middle;
+}
+
+.arrownext {
+    background-color: white;
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right:0;
+    margin-top: 25vh;
+}
+
+.arrowback {
+    background-color: white;
+    opacity: 1;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left:0;
+    margin-top: 25vh;
 }
