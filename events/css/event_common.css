@@ -7,10 +7,10 @@
 
 .event_holder {
     font-family: Open Sans Light;
-    background: black;
+    background: #e17b75;
     width: 100%;
     height: 60vh;
-    opacity: 0.75;
+    opacity: 1;
 }
 
 div.event {
