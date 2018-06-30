@@ -87,3 +87,27 @@ div.subbtn:hover{
     background-color: black;
     cursor: default;
 }
+
+@media only screen and (max-device-aspect-ratio: 9/15){
+    div.subbtn{
+    margin-right: 5px;
+    margin-top: 5px;
+    height: 35px;
+    width: 100px;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    color: black;
+    font-family: Franchise Bold;
+    font-size: 250%;
+    text-align: center;
+    vertical-align: middle;
+    float: right;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
