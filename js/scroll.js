@@ -8,7 +8,7 @@ $("#scr").hover(function(){
 });
 
 $('#scr').click(function(){
-    $(window).scrollTo(".container",1500, {
+    $(window).scrollTo(".container", {
         onAfter: function(){
             requestAnimationFrame(function(){
                 $('.anim').addClass('.bounceIn');
