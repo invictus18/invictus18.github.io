@@ -97,6 +97,7 @@ div.event_:hover{
 }
 
 html, body {
+    cursor: default;
     margin: 0;
     background-color: black;
 }

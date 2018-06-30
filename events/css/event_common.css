@@ -1,3 +1,6 @@
+html {
+    cursor: default;
+}
 .up {
     height: 75px;
     background color: transparent;

@@ -18,6 +18,7 @@
 }
 
 div.cards{
+    cursor: default;
     background-color: black;
     height: 65;
     width: 80%;
