@@ -1,0 +1,8 @@
+img.up{
+    background-color: black;
+    height: 70;
+    width: auto;
+    object-fit: contain;
+    overflow: hidden;
+    border-radius: 0px;
+}
