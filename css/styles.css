@@ -79,6 +79,7 @@ div.event_{
     text-align: center;
     vertical-align: middle;
     float: right;
+    line-height: 95%;
 }
 
 div.event_:hover{

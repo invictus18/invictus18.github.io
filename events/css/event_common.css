@@ -84,6 +84,7 @@ div.subbtn{
     left: 0;
     margin-left: auto;
     margin-right: auto;
+    line-height: 95%;
 }
 
 div.subbtn:hover{
