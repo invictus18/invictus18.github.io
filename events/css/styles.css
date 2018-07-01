@@ -193,10 +193,11 @@ div.event_{
     border-style: solid;
     color: white;
     font-family: Franchise Bold;
-    font-size: 250%;
+    font-size: 225%;
     text-align: center;
     vertical-align: middle;
     float: right;
+    line-height: 100%;
 }
 }
 
