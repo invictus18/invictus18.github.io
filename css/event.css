@@ -13,17 +13,23 @@
 }
 
 .container_event {
-    width: 100%;
+    width: 100vw;
+    height: auto;
     background-color: black;
+    overflow: hidden;
 }
 
 div.cards{
     cursor: default;
     background-color: black;
     height: auto;
-    width: 100vw;
-    object-fit: fill;
-    overflow: hidden;
+    width: 70vw;
+    object-fit: contain;
+    overflow: visible;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img.cards{
@@ -37,4 +43,17 @@ img.cards{
         height: auto;
         align-self: right;
 }
+div.cards{
+    cursor: default;
+    background-color: black;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+    overflow: visible;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 }
