@@ -1,4 +1,4 @@
-$('#bggif').load(function(){
+function preLoad(){
     $("#preload").remove();
-    $("body").show();
-})
+    $(".load").show();   
+}
