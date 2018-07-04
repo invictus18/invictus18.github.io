@@ -69,11 +69,12 @@ div.event_{
     margin-top: 5px;
     height: 35px;
     width: 100px;
-    border-color: white;
+    border-color: black;
+    background-color: white;
     border-radius: 5px;
     border-width: 3px;
     border-style: solid;
-    color: white;
+    color: black;
     font-family: Franchise Bold;
     font-size: 225%;
     text-align: center;
@@ -83,8 +84,8 @@ div.event_{
 }
 
 div.event_:hover{
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
     cursor: default;
 }
 
@@ -185,11 +186,12 @@ div.event_{
     margin-top: 5px;
     height: 35px;
     width: 100px;
-    border-color: white;
+    border-color: black;
+    background-color: white;
     border-radius: 5px;
     border-width: 3px;
     border-style: solid;
-    color: white;
+    color: black;
     font-family: Franchise Bold;
     font-size: 225%;
     text-align: center;
