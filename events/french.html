@@ -9,32 +9,79 @@
         <link rel="stylesheet" href="css/event.css">
         <link rel="stylesheet" href="css/event_common.css">
     </head>
-    <body>
-        <div class="up">
+    <body onload="preLoad();" class="animated zoomIn">
+        <iframe src="preload.html" style="height: 100vh; width: 100%; border-style: none;" id="preload"></iframe>
+        <div class="up load">
             <a href="../event_page.html" class="event_button animated fadeInUpBig" id="events"><div class="event_" style="float right;">
                EVENTS
             </div></a>
         </div>
-        <div class="event_holder">
+        <div class="event_holder load">
         <div class="event">
             <div class="event_img _1title">
             </div>
             <div class="event_win" id="">
                 <h2>Français</h2>
-                <p></p>
+                <p>French is a Romance language of the Indo-European family. It descended from the Vulgar Latin of the Roman Empire, as did all Romance languages. French has evolved from Gallo-Romance, the spoken Latin in Gaul, and more specifically in Northern Gaul.</p>
             </div>
         </div>
         <div class="event">
             <div class="event_img _1title">
             </div>
             <div class="event_win" id="">
-                <h2>Some event</h2>
-                <p>some text here</p>
+                <h2>L’Histoire de Couture Française (Fashion show)</h2>
+                <p>
+                    <b>Day 1</b><br>
+                    <b>‘La mode se démode, le style jamais’</b><br>
+                    Les modèles doivent porter des vêtements qui représentent l’évolution de la mode française pendant décennies suivantes: (1910’s,1920’s,1930’s, 1940’s, 1950’s, 1960’s, 1970’s, 1980’s, 1990’s, 2000’s, 2010’s)<br>
+                    Ce n’est pas nécessaire de choisir toutes les décennies données. On peut choisir certains d’entre eux.<br>
+                    Les vêtements doivent refléter ce que les hommes et les femmes portaient pendant les décennies choisies.<br>
+                    Entrant en groupe de 16 personnes max.(maximum of 16 people)<br>
+                    Un groupe par l’école. (One group per school)<br>
+                    Durée : 7 à 10 minutes.(Time limit of 7-10 minutes)<br>
+                </p>
             <a href="../event_page.html" class="event_button animated fadeInUpBig" id="events"><div class="subbtn">
                Sign Up!
             </div></a>
             </div>
         </div>
+        <div class="event">
+            <div class="event_img _1title">
+            </div>
+            <div class="event_win" id="">
+                <h2>La Façade (Impersonation)</h2>
+                <p>
+                    <b>Day 1</b><br>
+                    <b>‘Usurper l’identité d’une célébrité’</b><br>
+                    Déguisez-vous comme un français célèbre, imitez-le /parlez à <br>
+                    Propos de cette personnalité.<br>
+                    Activité individuelle.<br>
+                    Les vêtements doivent refléter ce que les hommes et les femmes portaient pendant les décennies choisies.<br>
+                    Trois participants  par l’école max(Maximum of 3 students per school)<br>
+                    Durée : 1 à 3 minutes(Time limit of 1-3 minutes)<br>
+                </p>
+            <a href="../event_page.html" class="event_button animated fadeInUpBig" id="events"><div class="subbtn">
+               Sign Up!
+            </div></a>
+            </div>
+        </div>
+        <div class="event">
+            <div class="event_img _1title">
+            </div>
+            <div class="event_win" id="">
+                <h2>Le Quizz (Quiz)</h2>
+                <p>
+                    <b>Day 2</b><br>
+                    <b> ‘Un défi pour votre connaissance de la France’</b><br>
+                    Un coup d’œil à la France (la culture, le sport, le film, la littérature, la politique)<br>
+                    Entrant en groupe de 2 personnes.(2 people per group)<br>
+                    Trois groupes par l’école max. (maximum of 3 groups per school)<br>
+                </p>
+            <a href="../event_page.html" class="event_button animated fadeInUpBig" id="events"><div class="subbtn">
+               Sign Up!
+            </div></a>
+            </div>
+            </div>
         </div>
     </body>
     <script src="js/jquery-3.3.1.js"></script>
@@ -42,4 +89,5 @@
     <script src="js/jquery-visible-master/jquery.visible.min.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/preload.js"></script>
 </html>

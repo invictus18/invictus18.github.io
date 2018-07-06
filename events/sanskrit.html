@@ -9,13 +9,14 @@
         <link rel="stylesheet" href="css/event.css">
         <link rel="stylesheet" href="css/event_common.css">
     </head>
-    <body>
-        <div class="up">
+    <body onload="preLoad();" class="animated zoomIn">
+        <iframe src="preload.html" style="height: 100vh; width: 100%; border-style: none;" id="preload"></iframe>
+        <div class="up load">
             <a href="../event_page.html" class="event_button animated fadeInUpBig" id="events"><div class="event_" style="float right;">
                EVENTS
             </div></a>
         </div>
-        <div class="event_holder">
+        <div class="event_holder load">
         <div class="event">
             <img class="icon" src="asset/Sanskrit.png">
             <div class="event_img _1title">
@@ -111,4 +112,5 @@
     <script src="js/jquery-visible-master/jquery.visible.min.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/scroll.js"></script>
+    <script src="js/preload.js"></script>
 </html>
