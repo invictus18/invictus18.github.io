@@ -10,104 +10,95 @@ html {
     width: 100%;
     z-index: 2;
     position: fixed;
+    margin: 0;
 }
 
-.event_holder {
-    font-family: Open Sans Light;
+body,html {
     background: white;
-    width: 100%;
+    margin: 0;
+}
+
+h2 {
+    color: black;
+    font-family: Franchise Bold;
+
+}
+
+p {
+    color: black;
+    text-align: left;
+}
+
+._event_class {
+    font-family: Open Sans Light;
+    color: black;
     height: auto;
-    opacity: 1;
     overflow: hidden;
+    width: 97%;
+    padding-left: 3%;
 }
 
-div.event {
-    font-family: Open Sans Light;
-    width:100%;
-    height: 100vh;
-    display:block;
-    vertical-align: middle;
-    position: relative;
+.events {
+    width: 97%;
+    padding-left: 3%;
+    color: black;
+    font-family: Open Sans Light; 
+    height: auto;
+    min-height: 50vh;
 }
 
-img.icon{
-    position: absolute;
-    width: auto;
-    height: 50vh;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
+.event_container {
     top: 0;
-    padding: -128px;
-    z-index: 2;
-}
-
-div.event_img{
-    overflow: hidden;
-    color: black;
-    font-family: Open Sans Light;
-    height: 100vh;
+    background-color: transparent;
+    opacity: 1;
+    position: fixed;
+    height: 100%;
     width: 100%;
-    background-color: #ffffff;
-    background-repeat: repeat;
-    background-size: auto;
-    right: 0;
-    left: 0;
-    top:0;
-    position: absolute;
-background-color: #9ff09e;
-background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23000000' fill-opacity='0.51'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
-}
-
-div.event_win{
-    text-align: center;
-    color: black;
-    font-family: Open Sans Light;
-    height: 50vh;
-    width: 100%;
-    background-color: white;
-    right: 0;
-    left: 0;
-    bottom:0;
-    position: absolute;
-    z-index: 1;
-    overflow: scroll;
-}
-
-div.event_win h2,div.event_win p{
-    color: black;
-}
-
-.event_win::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-}
-
-#window2, #window3, #window4, #window5, #window6 {
+    z-index: 4;
     display: none;
 }
 
-.arrownext {
-    background-color: transparent;
-    opacity: 1;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    right:0;
-    margin-top: 25vh;
-    z-index: 2;
+.event_win {
+    text-align: center;
+    height: 80vh;
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border color: black;
+    top: 50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    z-index: 5;
+    margin-top: auto;
+    overflow-y: scroll;
+    margin-top: -40vh;
 }
 
-.arrowback {
-    background-color: transparent;
-    opacity: 1;
+.cross {
+    position: absolute;
     height: 50px;
     width: 50px;
-    position: absolute;
-    left:0;
-    margin-top: 25vh;
-    z-index: 2;
+    background-color: transparent;
+    top: 0;
+    right:0;
+}
+
+img.cross_img {
+    height: 32px;
+    width: 32px;
+    margin-top: 8px;
+}
+
+.cross:hover {
+    background-color: black;
+}
+
+p._link:hover {
+    color: dimgrey;
 }
 
 div.subbtn{
@@ -116,6 +107,7 @@ div.subbtn{
     height: 35px;
     width: 100px;
     border-color: black;
+    background-color: white;
     border-radius: 5px;
     border-width: 3px;
     border-style: solid;
@@ -124,45 +116,43 @@ div.subbtn{
     font-size: 225%;
     text-align: center;
     vertical-align: middle;
-    float: right;
-    position: absolute;
-    right: 0;
-    left: 0;
-    margin-left: auto;
-    margin-right: auto;
+    float: left;
     line-height: 95%;
 }
 
-div.subbtn:hover{
+div.subtn:hover{
     color: white;
     background-color: black;
     cursor: default;
 }
 
+div.event_txt {
+    margin: 3vh 0 3vh 0;
+    width: 46%;
+    padding: 2%;
+    float: left;
+    height: auto;
+}
 
-div.map{
-    height: 100vh;
-    width: auto;
-    top: 0;
+div.event_img {
+    margin: 3vh 0 3vh 0;
+    width: 50%;
+    float: right;
+    height: auto;
+    object-fit: cover;
     overflow: hidden;
 }
 
-img.map {
-    object-fit:contain; 
-    height: 120vh;
-}
-
-div.map_mark {
-    height:20px;
-    background-color: red;
-    width: 20px;
-    border-radius: 50%;
-    border-style: solid;
-    border-width: 4px;
-    border-color: white;
-    z-index: 1;
-    top: 56;
+img.event_img {
+    width: 90%;
+    height: auto;
 }
 
 @media only screen and (max-device-aspect-ratio: 9/15){
+    div.event_txt{
+        width: 100%;
+    }
+    div.event_img{
+        width: 100%;
+    }
 }
