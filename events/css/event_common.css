@@ -118,15 +118,15 @@ div.subbtn{
     
 }
 
-::-webkit-scrollbar {
+.event_win::-webkit-scrollbar {
     width: 5px;
 }
 
-::-webkit-scrollbar-thumb{
+.event_win::-webkit-scrollbar-thumb{
     background-color: grey;
 }
 
-::-webkit-scrollbar-track{
+.event_win::-webkit-scrollbar-track{
     background-color: lightgrey;
 }
 
@@ -168,7 +168,7 @@ img.event_img {
         overflow-x: hidden;
     }
     
-::-webkit-scrollbar {
+.event_win::-webkit-scrollbar {
     display: none;
 }
 
