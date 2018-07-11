@@ -19,6 +19,6 @@ $("._link").click(function(){
     var event = $(this).attr('id');
     var _event = $('div#'+event);
     $(_event).show();
-    $(_event).addClass('animated zoomIn');
+    $(_event).addClass('animated slideInUp');
     console.log(_event)
 })
