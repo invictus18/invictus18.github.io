@@ -14,24 +14,24 @@ html {
 }
 
 body,html {
-    background: white;
+    background: black;
     margin: 0;
 }
 
 h2 {
-    color: black;
+    color: white;
     font-family: Franchise Bold;
 
 }
 
 p {
-    color: black;
+    color: white;
     text-align: left;
 }
 
 ._event_class {
     font-family: Open Sans Light;
-    color: black;
+    color: white;
     height: auto;
     overflow: hidden;
     width: 97%;
@@ -42,7 +42,7 @@ p {
 .events {
     width: 97%;
     padding-left: 3%;
-    color: black;
+    color: white;
     font-family: Open Sans Light; 
     height: auto;
     min-height: 50vh;
@@ -64,7 +64,9 @@ p {
     height: 80vh;
     width: 80%;
     margin: auto;
-    background-color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
     top: 50%;
     bottom: 0;
     left: 0;
@@ -92,12 +94,12 @@ img.cross_img {
 }
 
 .cross:hover {
-    background-color: black;
+    background-color: white;
 }
 
 a._link{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a._link:hover {
@@ -109,12 +111,12 @@ div.subbtn{
     margin-top: 5px;
     height: 35px;
     width: 100px;
-    border-color: black;
-    background-color: white;
+    border-color: white;
+    background-color: black;
     border-radius: 5px;
     border-width: 3px;
     border-style: solid;
-    color: black;
+    color: white;
     font-family: Franchise Bold;
     font-size: 225%;
     text-align: center;
@@ -137,8 +139,8 @@ div.subbtn{
 }
 
 div.subbtn:hover{
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     cursor: default;
 }
 
