@@ -180,6 +180,20 @@ a:visited {
     color: #444444;
 }
 
+div.footwrap1 {
+    width: 50%;
+    float: left;
+    height: 20vh;
+    position: relative;
+}
+
+div.footwrap2 {
+    width: 50%;
+    float: right;
+    height: 20vh;
+    position: relative;
+}
+
 @media only screen and (max-device-aspect-ratio: 9/15){
     div.event_txt{
         width: 100%;
