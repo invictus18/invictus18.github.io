@@ -118,7 +118,7 @@ h2 {
 .text_invictus{
     width: 100%;
     height: auto;
-    background-color: lightseagreen;
+    background-color: black;
 }
 
 .image_invictus{
@@ -138,10 +138,10 @@ h2 {
 .footrow{
     width: 100%;
     height: 20vh;
-    background-color: #232323;
+    background-color: black;
     text-align: left;
     font-family: Open Sans Light;
-    color: dimgrey;
+    color: #444444;
 }
 
 p {
@@ -170,11 +170,11 @@ img.social_link{
 
 a {
     text-decoration: none;
-    color: dimgrey;
+    color: #444444;
 }
 
 a:visited {
-    color: dimgrey;
+    color: #444444;
 }
 
 p.About {

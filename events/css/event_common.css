@@ -126,6 +126,11 @@ div.subbtn{
     
 }
 
+img.invictus {
+    height: 7vh;
+    width: auto;
+}
+
 .event_win::-webkit-scrollbar {
     width: 5px;
 }
@@ -168,11 +173,11 @@ img.event_img {
 
 a {
     text-decoration: none;
-    color: dimgrey;
+    color: #444444;
 }
 
 a:visited {
-    color: dimgrey;
+    color: #444444;
 }
 
 @media only screen and (max-device-aspect-ratio: 9/15){
