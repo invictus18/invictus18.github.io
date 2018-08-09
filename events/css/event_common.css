@@ -126,6 +126,24 @@ div.subbtn{
     
 }
 
+div.update {
+    color: white;
+    background-color: black; 
+}
+
+div.update:hover {
+    color: black;
+    background-color: white; 
+}
+
+p.update {
+    color: white;
+}
+
+p.update:hover {
+    color: black;
+}
+
 img.invictus {
     height: 7vh;
     width: auto;
