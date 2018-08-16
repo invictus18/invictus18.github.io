@@ -36,7 +36,7 @@ img.gif_back{
 .index_title {
     color: white;
     font-family: Ostrich Sans Medium;
-    margin-top: -55vh;
+    margin-top: -75vh;
     font-size: 500%;
     position: absolute;
     left:0;
@@ -197,8 +197,8 @@ h2.time {
 }
 
 h2.not_time {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: transparent;
     font-family: Ostrich Sans Medium;
     font-size: 200%;
     position: absolute;
@@ -208,7 +208,7 @@ h2.not_time {
     width: auto;
     margin-left: auto;
     margin-right: auto; 
-    margin-top: -35vh;
+    margin-top: -60vh;
 }
 
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */ @font-face {font-family:"Ostrich Sans Medium";src:url("../font/ostrich-regular.eot?") format("eot"),url("../font/ostrich-regular.woff") format("woff"),url("../font/ostrich-regular.ttf") format("truetype"),url("../font/ostrich-regular.svg#OstrichSans-Medium") format("svg");font-weight:normal;font-style:normal;}
